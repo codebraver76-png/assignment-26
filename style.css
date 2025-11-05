@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #054a53;
+}
+
+.back {
+
+  width: 90%;
+  height: 150px;
+  margin: 40px auto;
+
+}
+
+
+.racer {
+  position: absolute;
+  bottom: 10px;
+  width: 80px;
+}
+
+.racer1 {
+  left: 0;
+  animation: race1 5s linear infinite;
+}
+
+.racer2 {
+  left: 0;
+  bottom: 200px;
+  animation: race2 6s linear infinite;
+}
+
+@keyframes race1 {
+  0% { left: 0; }
+  100% { left: 90%; }
+}
+
+@keyframes race2 {
+  0% { left: 0; }
+  100% { left: 90%; }
+}
+
